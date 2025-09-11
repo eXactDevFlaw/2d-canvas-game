@@ -10,8 +10,8 @@
 
 :root {
     /* Game Dimensions */
-    --game-height: 480px;
-    --game-width: 720px;
+    --game-height: 700px;
+    --game-width: 800px;
 
     /* Western Theme Colors */
     --btn-brown: #8B4513;
