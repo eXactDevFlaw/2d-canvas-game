@@ -20,7 +20,7 @@ export default class Background {
     ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
     ctx.drawImage(
       this.image,
-      this.x + this.width,
+      this.x + this.width -1,
       this.y,
       this.width,
       this.height

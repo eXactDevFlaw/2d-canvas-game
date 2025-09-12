@@ -1,5 +1,5 @@
 import Background from "../modules/textures/background/background.js";
-import Enemy from "../modules/creatures/enemies/enemie-1.js";
+import Enemy from "../modules/creatures/enemies/enemy.js";
 import SpriteLoader from "../modules/utilities/sprite-loader/sprite-loader.js";
 
 const canvas = document.getElementById("game-canvas");
@@ -8,7 +8,7 @@ const CANVAS_WIDTH = (canvas.width = 800);
 const CANVAS_HEIGHT = (canvas.height = 700);
 let gameSpeed = 2;
 let gameFrame = 0;
-const numberOfEnemies = 50;
+const numberOfEnemies = 5;
 const gameEnemies = [];
 
 const backgroundLayer1 = new Image();
